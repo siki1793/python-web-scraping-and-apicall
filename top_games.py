@@ -27,10 +27,7 @@ def json2csv(data,country,deviceType):
 def topGamesAndroid(country,language,gamecatagorie):#keep a constant for country and language
     url = "https://api.apptweak.com/android/categories/"+gamecatagorie+"/top.json?country="+country+"&language="+language
     print url
-    # headers = {'X-Apptweak-Key':'nyNXb6j02GmgWmY3BgZ3R5fFtSU'}
     headers = {'X-Apptweak-Key':'5AqviwWqaTgGWfTapNKdL68BEnI'}
-    # headers = {'X-Apptweak-Key':'rSmSsH2Jr9w5kolzA8_d_oV4a0E'}
-    # headers = {'X-Apptweak-Key':'UMvPWbvVyLB7pPGVraHT1NrB_wM'}
     
     res = req.get(url,headers=headers)
     if(res.ok):
