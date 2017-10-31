@@ -18,11 +18,7 @@ def openData():
 
 def topGamesAndroidDetail(gameid):#keep a constant for country and language
     try:
-        # url = "https://data.42matters.com/api/v2.0/android/apps/lookup.json?p="+gameid+"&access_token=614c69f2d10cedb54019dfe9bf5cd0f9f2ffba75"
-        # url = "https://data.42matters.com/api/v2.0/android/apps/lookup.json?p="+gameid+"&access_token=5de6027bdd7b22976838ec41df580917319c979a"        
-        # url = "https://data.42matters.com/api/v2.0/android/apps/lookup.json?p="+gameid+"&access_token=55b01deb2a05577e10de72b2f70de6af6f8af618"        
-        # url = "https://data.42matters.com/api/v2.0/android/apps/lookup.json?p="+gameid+"&access_token=43816078b0ddd5f7273e2dcf69df9b34bdf4ae04"        
-        url = "https://data.42matters.com/api/v2.0/android/apps/lookup.json?p="+gameid+"&access_token=a8b7aac050671f589a3b492632f9bec3ccb24965"        
+       url = "https://data.42matters.com/api/v2.0/android/apps/lookup.json?p="+gameid+"&access_token=a8b7aac050671f589a3b492632f9bec3ccb24965"        
         
         
         
